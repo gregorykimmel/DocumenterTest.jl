@@ -7,3 +7,7 @@ makedocs(sitename="My Documentation",
                 prettyurls = get(ENV, "CI", nothing) == "true",
         )
 )
+
+deploydocs(
+    repo="github.com/gregorykimmel/DocumenterTest.jl.git"
+)
